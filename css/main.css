@@ -393,9 +393,325 @@ img {
   padding: 0 20px;
 }
 
+.site-button {
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  background-color: #b36e71;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* HEADER */
+header {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.site-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#logo {
+  display: inline-block;
+}
+
+/* HEADER LIST */
+.header-list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header-item + .header-item {
+  margin-left: 33px;
+}
+
+.header-item:active {
+  opacity: 1;
+}
+
+.header-item:hover {
+  opacity: 2;
+}
+
+.header-item-span {
+  text-decoration: underline;
+}
+
+.header-item-link {
+  text-decoration: none;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888F;
+}
+
+.heading-label {
+  margin-left: 33px;
+}
+
+.header-input {
+  border: none;
+  border-bottom: 1px solid dimgray;
+}
+
+.header-input:focus {
+  outline: 0;
+}
+
+.header-item-link:active {
+  color: #333D4B;
+}
+
 .main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.freecalls__heading {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.freecalls__left_desc {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 1.5;
+  color: #C4C4C4;
+}
+
+.freecalls__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.freecalls__left-span {
+  margin-right: 30px;
+  border: 1px solid #C4C4C4;
+  height: 100px;
+}
+
+.freecalls__left_desc {
+  width: 360px;
+}
+
+.hero--container {
+  padding: 100px 0 200px 0;
+  /* position: absolute; */
+  background-position: top right -150px;
+  background-image: url("../images/watches.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px 500px;
+  /* width: 100%; */
+}
+
+.container {
+  width: 1157px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-site {
+  padding-top: 30px;
+}
+
+.about-site__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.about-site__item {
+  width: 300px;
+}
+
+.about-site__heading {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.about-site__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+.about-site__span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-top: 20px;
+  background-color: #9b9797;
+}
+
+.about-site__span + .about-site__span {
+  margin-left: 10px;
+}
+
+.about-site__link {
+  display: inline-block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.about-site__link::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: red;
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-right: 20px;
+}
+
+.band-sport {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.band-container {
+  width: 100%;
+  max-width: 1157px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.band-sport__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-band {
+  width: 100%;
+  max-width: 450px;
+}
+
+.left-band__title {
+  max-width: 300px;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.left-band__disc {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.health {
+  width: 100%;
+  background-image: url("/images/runners.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  padding: 100px 0 500px;
+  margin-top: 20px;
+}
+
+.paragraph {
+  position: absolute;
+  right: 150px;
+}
+
+.info__title {
+  font-size: 36px;
+  color: white;
+  width: 350px;
+  line-height: 1.1;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.info-data {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.info-data__scroll {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  height: 135px;
+  width: 3px;
+  background-color: #fff;
+}
+
+.info-data__desc {
+  width: 350px;
+  color: #ccc;
+}
+
+.info-button {
+  padding: 15px 20px;
+  text-align: left;
 }
 /*# sourceMappingURL=main.css.map */

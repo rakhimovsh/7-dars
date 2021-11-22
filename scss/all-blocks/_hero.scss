@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    max-width:100%;
+    width:1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.freecalls__heading {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.freecalls__left_desc {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 1.5;
+    color: #C4C4C4;
+}
+
+.freecalls__left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.freecalls__left-span {
+    margin-right: 30px;
+    border: 1px solid #C4C4C4;
+    height: 100px;
+}
+
+.freecalls__left_desc {
+    width: 360px;
+}
+
+.hero--container {
+    padding: 100px 0 200px 0;
+    /* position: absolute; */
+    background-position: top right -150px;
+    background-image: url('../images/watches.jpg');
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    /* width: 100%; */
+}

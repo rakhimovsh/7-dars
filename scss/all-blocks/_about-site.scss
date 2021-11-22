@@ -1,0 +1,68 @@
+.container {
+    width: 1157px;
+    margin: 0 auto;
+    padding: 0 20px;
+   }
+   
+   .about-site {
+    padding-top: 30px;
+   }
+   
+   .about-site__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+   }
+   
+   .about-site__item {
+    width: 300px;
+   }
+   
+   
+   .about-site__heading {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+   }
+   
+   .about-site__paragraph {
+    margin: 0;
+    padding: 0;
+   }
+   
+   .about-site__span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-top: 20px;
+    background-color: rgb(155, 151, 151);
+   }
+   
+   .about-site__span + .about-site__span {
+    margin-left: 10px;
+   }
+   
+   .about-site__link {
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+   }
+   
+   .about-site__link::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 20px;
+   }

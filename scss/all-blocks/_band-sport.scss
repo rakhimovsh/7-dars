@@ -1,0 +1,28 @@
+.band-sport {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.band-container {
+    width: 100%;
+    max-width: 1157px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.band-sport__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-band {
+    width: 100%;
+    max-width: 450px; 
+    &__title {
+        max-width: 300px;
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+    &__disc {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+}

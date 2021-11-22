@@ -1,0 +1,51 @@
+
+.health {
+    width: 100%;
+    background-image: url("/images/runners.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    padding: 100px 0 500px;
+    margin-top: 20px;
+}
+.paragraph {
+    position: absolute;
+    right: 150px;
+}
+
+.info__title {
+    font-size: 36px;
+    color: white;
+    width: 350px;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.info-data {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.info-data__scroll {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    height: 135px;
+    width: 3px;
+    background-color: #fff;
+}
+
+.info-data__desc {
+    width: 350px;
+    color: #ccc;
+}
+
+.info-button {
+    padding: 15px 20px;
+    text-align: left;
+}
